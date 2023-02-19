@@ -12,7 +12,7 @@ function Screenshot([Drawing.Rectangle]$bounds, $path) {
    $bmp.Dispose()
 }
 
-$data = Import-Excel 'D:\temp\Azure.xlsx' -Sheet websites
+$data = Import-Excel 'D:\temp\PROVA AUTOMATION.xlsx' -Sheet websites
 
 $data | ForEach-Object {
    $website = $_
